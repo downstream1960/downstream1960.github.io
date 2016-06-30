@@ -470,9 +470,9 @@
     background: url(../img/background.png);
     height: 100vh;
     position: absolute;
-/*
+
     animation: 90s scroll infinite linear;
-*/
+
     background-size: cover;
 }
 
