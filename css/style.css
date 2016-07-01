@@ -1,0 +1,121 @@
+/* ============================================================
+  NAVIGATION - DEMO NAV
+
+============================================================ */
+
+
+.cta {
+    background: url(../img/casey.png) center center;
+    background-size: cover;
+    height: 100vh;
+    padding: 100px 0;
+}
+
+@media only screen and (max-width: 800px) {
+
+.cta {
+    background: url(../img/caseyn.png) center center;
+    background-size: cover;
+    height: 100vh;
+    padding: 100px 0;
+}
+
+img.cta-logo {
+      width: 330px;
+
+}
+
+
+}
+
+
+.cta-links {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.cta-img {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    width: 1em;
+}
+
+.cta-logo {
+  width: 400px;
+}
+
+.cta-social {
+    text-decoration: none;
+    font-size: 4em;
+    color: #2E3042;
+}
+
+
+.cta-text {
+      position: absolute;
+    left: 3em;
+    top: 15em;
+}
+
+
+.youtube:hover {
+  color: #E62117;
+}
+
+.twitter:hover {
+  color: rgb(29, 161, 242);
+}
+
+.beme:hover {
+  color: #00EB00;
+}
+
+.instagram:hover {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left,#3A66E5,#FEC860,#FF5744);
+}
+
+
+
+
+
+
+/* ============================================================
+  BASE OVERRIDES
+
+  Use this to make sure max width of wrapper is also max
+  video width in demo 3.
+============================================================ */
+.wrapper.demo3 {
+  max-width: 1600px;
+}
+
+
+/* Video background */
+
+#cmn-video-demo4__video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#cmn-video-demo4__content {
+  text-align: center;
+}
+
+.cmn-video-demo4__content--header {
+  margin-bottom: 40px;
+}
+

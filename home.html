@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+  <!-- title and meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0" name="viewport">
+  <meta content="This tutorial serves as an introduction to the HTML5 video element, with examples including custom controls, background and fullscreen video." name="description">
+
+  <title>Casey Neistat Official Website</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/polyfill.object-fit.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <!-- js -->
+  <script src="js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div class="cta-img">
+<img src="img/sig.png" class="cta-logo">
+</div>
+
+<div class="cta-text">
+  <ul class="cta-options">
+    <li class="cta-links">
+      <a href="https://www.youtube.com/channel/UCtinbF-Q-fVthA0qrFQTgXQ" class="cta-social youtube">Youtube</a>
+    </li>
+    <li class="cta-links">
+      <a href="https://twitter.com/caseyneistat" class="cta-social twitter">Twitter</a>
+    </li>
+    <li class="cta-links">
+      <a href="https://beme.com/casey" class="cta-social beme">Beme</a>
+    </li>
+    <li class="cta-links">
+      <a href="https://www.instagram.com/caseyneistat/?hl=en" class="cta-social instagram">Instagram</a>
+    </li>
+
+
+
+  </ul>
+</div>
+
+
+<div class="wrapper demo3 cta">
+<div class="cta-blur">
+  <video id="cmn-video-demo4__video" autoplay muted loop>
+    <source src="media/demo.mp4" type="video/mp4">
+    <source src="media/demo.ogv" type="video/ogg">
+    <source src="media/demo.webm" type="video/webm">
+    Your browser doesn't support HTML5 video. Here's a <a href="#">link</a> to download the video.
+  </video>
+</div>
+</div><!-- /#wrapper -->
+
+<!-- js -->
+<script src="js/polyfill.object-fit.js"></script>
+<script>
+  objectFit.polyfill({
+    selector: 'video',
+    fittype: 'cover'
+  });
+</script>
+
+<!-- ads -->
+<!-- <script src="js/fusionad.js"></script> -->
+
+<!-- analytics -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-34160351-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</body>
+</html>
