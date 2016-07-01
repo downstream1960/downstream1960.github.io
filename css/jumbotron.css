@@ -1,3 +1,10 @@
+.slaask-whitelabel a, .slaask-whitelabel span {
+    font-size: 11px;
+    color: transparent;
+    font-weight: 200;
+    text-decoration: none;
+}
+
 .cta-header {
     z-index: 3;
     position: relative;
