@@ -4511,7 +4511,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 
 .navbar {
-    position: relative;
+    position: absolute;
     min-height: 50px;
     /*
     margin-bottom: 20px;
@@ -4883,10 +4883,8 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 
 .navbar-default {
-    /*
-    background-color: #f8f8f8;
-    border-color: #e7e7e7;
-    */
+    z-index: 5;
+    width: 100%;
 }
 
 .navbar-default .navbar-brand {
