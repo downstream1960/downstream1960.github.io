@@ -729,11 +729,17 @@ input[type="checkbox"], input[type="radio"] {
 
 .control {
     font-size: 18px;
+    /* width: 55em; */
     position: relative;
     display: block;
+    color: #5c6878;
+    font-size: 2em;
+    font-family: 'Oxygen',sans-serif;
+    font-weight: 300;
     margin-bottom: 15px;
-    padding-left: 30px;
+    padding-left: 69px;
     cursor: pointer;
+    margin-left: 3em;
 }
 
 .control input {
@@ -746,7 +752,7 @@ input[type="checkbox"], input[type="radio"] {
 .control__indicator {
     position: absolute;
     top: 4px;
-    left: -7px;
+    left: 2px;
     border: 2px solid white;
     width: 40px;
     height: 40px;
@@ -822,4 +828,37 @@ input[type="checkbox"], input[type="radio"] {
 /* Disabled circle colour */
 .control--radio input:disabled ~ .control__indicator:after {
     background: #7b7b7b;
+}
+
+.cta-btn-glow {
+        content: '';
+    /* position: absolute; */
+    /* left: 0; */
+    /* top: 0; */
+    /* bottom: 0; */
+    /* right: 0; */
+    background-image: linear-gradient(to right,#fed45c,#fed45c);
+    border-radius: 30px;
+    z-index: 0;
+    border: 0px solid;
+        box-shadow: 4px 5px 27px 4px rgba(230, 224, 0, 0.35);
+}
+
+.cta-full-width {
+    max-width: 100%
+}
+
+.cta-outter-button {
+    max-width: 100%;
+}
+
+.cta-inner-button{
+        width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cta-inner-width {
+    width: 50%;
+    margin: 30px auto;
 }
