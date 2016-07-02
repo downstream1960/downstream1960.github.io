@@ -185,10 +185,9 @@
 
 .navbar-nav {
     display: inline-block;
-    float: none !important;
+    float: right !important;
     margin: 0;
 }
-
 .cta-nav {
     position: fixed;
     z-index: 4;
@@ -861,4 +860,96 @@ input[type="checkbox"], input[type="radio"] {
 .cta-inner-width {
     width: 50%;
     margin: 30px auto;
+}
+
+
+
+
+
+
+.select {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.select select {
+    display: inline-block;
+    width: 80%;
+    padding: 20px 20px;
+    cursor: pointer;
+    color: #7b7b7b;
+    border: 0;
+    color: #5c6878;
+    font-size: 2em;
+    font-family: 'Oxygen',sans-serif;
+    font-weight: 300;
+    border-radius: 0;
+    outline: 0;
+    background: rgba(180, 215, 241, 0.61);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select select::-ms-expand {
+    display: none;
+}
+
+
+.select select:hover,
+.select select:focus {
+    color: #000;
+    background: #b4d7f1;
+}
+
+.select select:disabled {
+    pointer-events: none;
+    opacity: .5;
+}
+
+.select__arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    border-width: 8px 5px 0 5px;
+    border-style: solid;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+.select select:hover ~ .select__arrow,
+.select select:focus ~ .select__arrow {
+    border-top-color: #000;
+}
+
+.select select:disabled ~ .select__arrow {
+    border-top-color: #ccc;
+}
+
+.cta-select-width {
+    width: 50%; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #CAE3EF;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+
+
+
+@media (min-width: 768px) {
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 70px;
+}
 }
