@@ -274,6 +274,12 @@ td,th {
     src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"),url(../fonts/glyphicons-halflings-regular.woff2) format("woff2"),url(../fonts/glyphicons-halflings-regular.woff) format("woff"),url(../fonts/glyphicons-halflings-regular.ttf) format("truetype"),url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
 }
 
+
+
+
+
+
+
 .glyphicon {
     position: relative;
     top: 1px;
@@ -4421,7 +4427,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 .nav-pills>li>a {
     font-family: Montserrat;
     line-height: 26px;
-    color: #cdcad8;
+    color: #7c818a;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -5413,12 +5419,12 @@ a.badge:focus,a.badge:hover {
 }
 
     .jumbotron .h1, .jumbotron h1 {
-        font-family: Montserrat;
-        font-size: 36px;
-        color: rgba(222, 222, 222, 0.94);
-        text-transform: uppercase;
-        font-weight: 400;
-        margin-bottom: 30px;
+    font-family: Montserrat;
+    font-size: 31px;
+    color: rgba(222, 222, 222, 0.94);
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 30px;
     }
 }
 
@@ -5888,7 +5894,9 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 .panel {
     margin-bottom: 20px;
     background-color: #fff;
+    /*
     border: 1px solid transparent;
+    */
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -5913,7 +5921,10 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
     margin-top: 0;
     margin-bottom: 0;
     font-size: 16px;
-    color: inherit;
+    font-weight: bold;
+    /* color: red; */
+    color: #dbdbff;
+    letter-spacing: 2px;
 }
 
 .panel-title>.small,.panel-title>.small>a,.panel-title>a,.panel-title>small,.panel-title>small>a {
@@ -6075,8 +6086,9 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 
 .panel-default>.panel-heading {
     color: #333;
-    background-color: #f5f5f5;
-    border-color: #ddd;
+    background-color: #ffffff;
+    border-radius: 7px;
+    /* border-color: #5c5fda; */
 }
 
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
